@@ -21,6 +21,11 @@
     {
       "matchManagers": ["npm"],
       "groupName": "npm dependencies"
+    },
+    {
+      "matchPackagePatterns": ["^@hubinity/"],
+      "groupName": "hubinity internal packages",
+      "schedule": ["at any time"]
     }
   ],
   "vulnerabilityAlerts": { "enabled": true }
